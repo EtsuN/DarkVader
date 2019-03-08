@@ -1,0 +1,24 @@
+﻿  Window.cpp
+d:\projects\cse167final_vs\cse167final_vs\particleexplosion.h(30): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+d:\projects\cse167final_vs\cse167final_vs\window.cpp(129): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+d:\projects\cse167final_vs\cse167final_vs\window.cpp(148): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\projects\cse167final_vs\cse167final_vs\window.cpp(152): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\projects\cse167final_vs\cse167final_vs\window.cpp(299): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\projects\cse167final_vs\cse167final_vs\window.cpp(474): warning C4018: '<': signed/unsigned mismatch
+d:\projects\cse167final_vs\cse167final_vs\window.cpp(615): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\projects\cse167final_vs\cse167final_vs\window.cpp(617): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\projects\cse167final_vs\cse167final_vs\window.cpp(619): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\projects\cse167final_vs\cse167final_vs\window.cpp(621): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\projects\cse167final_vs\cse167final_vs\window.cpp(623): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\projects\cse167final_vs\cse167final_vs\window.cpp(625): warning C4018: '<': signed/unsigned mismatch
+d:\projects\cse167final_vs\cse167final_vs\window.cpp(626): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\projects\cse167final_vs\cse167final_vs\window.cpp(631): warning C4018: '<': signed/unsigned mismatch
+d:\projects\cse167final_vs\cse167final_vs\window.cpp(693): warning C4244: 'initializing': conversion from 'clock_t' to 'float', possible loss of data
+d:\projects\cse167final_vs\cse167final_vs\window.cpp(701): warning C4244: 'initializing': conversion from 'clock_t' to 'float', possible loss of data
+d:\projects\cse167final_vs\cse167final_vs\window.cpp(1302): warning C4018: '<': signed/unsigned mismatch
+d:\projects\cse167final_vs\cse167final_vs\window.cpp(1968): warning C4101: 'pixel_diff': unreferenced local variable
+d:\projects\cse167final_vs\cse167final_vs\window.cpp(1997): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\projects\cse167final_vs\cse167final_vs\window.cpp(1998): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\projects\cse167final_vs\cse167final_vs\window.cpp(2001): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\projects\cse167final_vs\cse167final_vs\window.cpp(2002): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  cse167final_vs.vcxproj -> D:\Projects\cse167final_vs\Debug\cse167final_vs.exe

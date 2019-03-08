@@ -1,0 +1,101 @@
+﻿  Cube.cpp
+  Ground.cpp
+d:\projects\cse167final_vs\cse167final_vs\ground.cpp(51): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  Image2d.cpp
+d:\projects\cse167final_vs\cse167final_vs\image2d.cpp(134): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  Light.cpp
+d:\projects\cse167final_vs\cse167final_vs\light.cpp(84): warning C4101: 'num': unreferenced local variable
+d:\projects\cse167final_vs\cse167final_vs\light.cpp(163): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  main.cpp
+  OBJObject.cpp
+d:\projects\cse167final_vs\cse167final_vs\objobject.cpp(27): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  d:\projects\cse167final_vs\cse167final_vs\objobject.cpp(27): note: consider using '%zd' in the format string
+d:\projects\cse167final_vs\cse167final_vs\objobject.cpp(27): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'unsigned __int64'
+  d:\projects\cse167final_vs\cse167final_vs\objobject.cpp(27): note: consider using '%zd' in the format string
+d:\projects\cse167final_vs\cse167final_vs\objobject.cpp(27): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 3 has type 'unsigned __int64'
+  d:\projects\cse167final_vs\cse167final_vs\objobject.cpp(27): note: consider using '%zd' in the format string
+d:\projects\cse167final_vs\cse167final_vs\objobject.cpp(105): warning C4101: 'num': unreferenced local variable
+d:\projects\cse167final_vs\cse167final_vs\objobject.cpp(214): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+d:\projects\cse167final_vs\cse167final_vs\objobject.cpp(243): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+d:\projects\cse167final_vs\cse167final_vs\objobject.cpp(362): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  ParticleExplosion.cpp
+d:\projects\cse167final_vs\cse167final_vs\particleexplosion.h(30): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+d:\projects\cse167final_vs\cse167final_vs\particleexplosion.cpp(34): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\projects\cse167final_vs\cse167final_vs\particleexplosion.cpp(76): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+  Phantom.cpp
+d:\projects\cse167final_vs\cse167final_vs\particleexplosion.h(30): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+d:\projects\cse167final_vs\cse167final_vs\phantom.cpp(45): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Skybox.cpp
+d:\projects\cse167final_vs\cse167final_vs\skybox.cpp(169): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+d:\projects\cse167final_vs\cse167final_vs\skybox.cpp(137): warning C4101: 'tdata': unreferenced local variable
+d:\projects\cse167final_vs\cse167final_vs\skybox.cpp(215): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  Window.cpp
+d:\projects\cse167final_vs\cse167final_vs\particleexplosion.h(30): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+d:\projects\cse167final_vs\cse167final_vs\window.cpp(89): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\projects\cse167final_vs\cse167final_vs\window.cpp(228): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\projects\cse167final_vs\cse167final_vs\window.cpp(247): warning C4244: 'initializing': conversion from 'clock_t' to 'float', possible loss of data
+d:\projects\cse167final_vs\cse167final_vs\window.cpp(478): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  d:\projects\cse167final_vs\cse167final_vs\window.cpp(478): note: consider using '%zd' in the format string
+d:\projects\cse167final_vs\cse167final_vs\window.cpp(789): warning C4101: 'pixel_diff': unreferenced local variable
+d:\projects\cse167final_vs\cse167final_vs\window.cpp(815): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\projects\cse167final_vs\cse167final_vs\window.cpp(816): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\projects\cse167final_vs\cse167final_vs\window.cpp(819): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\projects\cse167final_vs\cse167final_vs\window.cpp(820): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+ParticleExplosion.obj : error LNK2001: unresolved external symbol __imp_glCullFace
+Skybox.obj : error LNK2001: unresolved external symbol __imp_glCullFace
+Window.obj : error LNK2001: unresolved external symbol __imp_glCullFace
+Cube.obj : error LNK2001: unresolved external symbol __imp_glCullFace
+Ground.obj : error LNK2001: unresolved external symbol __imp_glCullFace
+Image2d.obj : error LNK2001: unresolved external symbol __imp_glCullFace
+OBJObject.obj : error LNK2001: unresolved external symbol __imp_glCullFace
+Window.obj : error LNK2001: unresolved external symbol __imp_glDisable
+Cube.obj : error LNK2001: unresolved external symbol __imp_glDisable
+Image2d.obj : error LNK2001: unresolved external symbol __imp_glDisable
+main.obj : error LNK2001: unresolved external symbol __imp_glDisable
+ParticleExplosion.obj : error LNK2001: unresolved external symbol __imp_glDisable
+Cube.obj : error LNK2019: unresolved external symbol __imp_glDrawElements referenced in function "public: void __cdecl Cube::draw(unsigned int)" (?draw@Cube@@QEAAXI@Z)
+Image2d.obj : error LNK2001: unresolved external symbol __imp_glDrawElements
+Light.obj : error LNK2001: unresolved external symbol __imp_glDrawElements
+OBJObject.obj : error LNK2001: unresolved external symbol __imp_glDrawElements
+OBJObject.obj : error LNK2001: unresolved external symbol __imp_glEnable
+ParticleExplosion.obj : error LNK2001: unresolved external symbol __imp_glEnable
+Skybox.obj : error LNK2001: unresolved external symbol __imp_glEnable
+Window.obj : error LNK2001: unresolved external symbol __imp_glEnable
+Cube.obj : error LNK2001: unresolved external symbol __imp_glEnable
+Ground.obj : error LNK2001: unresolved external symbol __imp_glEnable
+Image2d.obj : error LNK2001: unresolved external symbol __imp_glEnable
+main.obj : error LNK2001: unresolved external symbol __imp_glEnable
+Ground.obj : error LNK2019: unresolved external symbol __imp_glDrawArrays referenced in function "public: void __cdecl Ground::draw(unsigned int)" (?draw@Ground@@QEAAXI@Z)
+ParticleExplosion.obj : error LNK2001: unresolved external symbol __imp_glDrawArrays
+Skybox.obj : error LNK2001: unresolved external symbol __imp_glDrawArrays
+Image2d.obj : error LNK2019: unresolved external symbol __imp_glBindTexture referenced in function "public: __cdecl Image2d::Image2d(char const *,float,float)" (??0Image2d@@QEAA@PEBDMM@Z)
+OBJObject.obj : error LNK2001: unresolved external symbol __imp_glBindTexture
+Skybox.obj : error LNK2001: unresolved external symbol __imp_glBindTexture
+Image2d.obj : error LNK2019: unresolved external symbol __imp_glBlendFunc referenced in function "public: void __cdecl Image2d::draw(unsigned int)" (?draw@Image2d@@QEAAXI@Z)
+ParticleExplosion.obj : error LNK2001: unresolved external symbol __imp_glBlendFunc
+Window.obj : error LNK2001: unresolved external symbol __imp_glBlendFunc
+Image2d.obj : error LNK2019: unresolved external symbol __imp_glGenTextures referenced in function "public: void __cdecl Image2d::loadTexture(char const *)" (?loadTexture@Image2d@@QEAAXPEBD@Z)
+OBJObject.obj : error LNK2001: unresolved external symbol __imp_glGenTextures
+Skybox.obj : error LNK2001: unresolved external symbol __imp_glGenTextures
+Image2d.obj : error LNK2019: unresolved external symbol __imp_glTexImage2D referenced in function "public: void __cdecl Image2d::loadTexture(char const *)" (?loadTexture@Image2d@@QEAAXPEBD@Z)
+OBJObject.obj : error LNK2001: unresolved external symbol __imp_glTexImage2D
+Skybox.obj : error LNK2001: unresolved external symbol __imp_glTexImage2D
+Image2d.obj : error LNK2019: unresolved external symbol __imp_glTexParameteri referenced in function "public: void __cdecl Image2d::loadTexture(char const *)" (?loadTexture@Image2d@@QEAAXPEBD@Z)
+OBJObject.obj : error LNK2001: unresolved external symbol __imp_glTexParameteri
+Skybox.obj : error LNK2001: unresolved external symbol __imp_glTexParameteri
+main.obj : error LNK2019: unresolved external symbol __imp_glClearColor referenced in function "void __cdecl setup_opengl_settings(void)" (?setup_opengl_settings@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp_glDepthFunc referenced in function "void __cdecl setup_opengl_settings(void)" (?setup_opengl_settings@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp_glGetString referenced in function "void __cdecl print_versions(void)" (?print_versions@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp_glPolygonMode referenced in function "void __cdecl setup_opengl_settings(void)" (?setup_opengl_settings@@YAXXZ)
+Window.obj : error LNK2001: unresolved external symbol __imp_glPolygonMode
+OBJObject.obj : error LNK2019: unresolved external symbol __imp_glLineWidth referenced in function "public: void __cdecl OBJObject::drawWithGeom(unsigned int,struct glm::vec<3,float,0>)" (?drawWithGeom@OBJObject@@QEAAXIU?$vec@$02M$0A@@glm@@@Z)
+Window.obj : error LNK2019: unresolved external symbol __imp_glClear referenced in function "public: static void __cdecl Window::display_callback(struct GLFWwindow *)" (?display_callback@Window@@SAXPEAUGLFWwindow@@@Z)
+Window.obj : error LNK2019: unresolved external symbol __imp_glDepthMask referenced in function "public: static void __cdecl Window::display_callback(struct GLFWwindow *)" (?display_callback@Window@@SAXPEAUGLFWwindow@@@Z)
+Window.obj : error LNK2019: unresolved external symbol __imp_glDrawBuffer referenced in function "public: static void __cdecl Window::drawIntoDepth(void)" (?drawIntoDepth@Window@@SAXXZ)
+Window.obj : error LNK2019: unresolved external symbol __imp_glReadPixels referenced in function "void __cdecl processShadowShooting(void)" (?processShadowShooting@@YAXXZ)
+Window.obj : error LNK2019: unresolved external symbol __imp_glStencilFunc referenced in function "public: static void __cdecl Window::drawIntoStencil(void)" (?drawIntoStencil@Window@@SAXXZ)
+Window.obj : error LNK2019: unresolved external symbol __imp_glStencilOp referenced in function "public: static void __cdecl Window::drawObjectWithShadow(void)" (?drawObjectWithShadow@Window@@SAXXZ)
+Window.obj : error LNK2019: unresolved external symbol __imp_glViewport referenced in function "public: static void __cdecl Window::resize_callback(struct GLFWwindow *,int,int)" (?resize_callback@Window@@SAXPEAUGLFWwindow@@HH@Z)
+Window.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) class irrklang::ISoundEngine * __cdecl irrklang::createIrrKlangDevice(enum irrklang::E_SOUND_OUTPUT_DRIVER,int,char const *,char const *)" (__imp_?createIrrKlangDevice@irrklang@@YAPEAVISoundEngine@1@W4E_SOUND_OUTPUT_DRIVER@1@HPEBD1@Z) referenced in function "public: static void __cdecl Window::initialize_objects(void)" (?initialize_objects@Window@@SAXXZ)
+D:\Projects\cse167final_vs\x64\Debug\cse167final_vs.exe : fatal error LNK1120: 23 unresolved externals

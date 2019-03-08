@@ -1,0 +1,3 @@
+﻿  Generating code
+d:\projects\cse167final\finalproject\window.cpp : fatal error C1301: error accessing program database D:\Projects\cse167final_vs\Release\cse167final_vs.ipdb, invalid format, please delete and rebuild
+LINK : fatal error LNK1257: code generation failed
