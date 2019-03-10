@@ -97,7 +97,7 @@ bool moved;
 clock_t lastTime;
 clock_t lastAttacked;
 float immuneDuration = 1000;
-float paralyzationDuration = 3000;
+float paralyzationDuration = 4000;
 
 int lightMovingDir; //1:left 2: right 3: up 4: down
 int lightMovingCount;
@@ -121,8 +121,8 @@ vec3 cam_pos1(0.0f, 5.0f, 20.0f), cam_pos2(0.0f, 5.0f, 20.0f), cam_look_at1(0.0f
 vector<int> turning; //for player one;		0: stationary 1:left 2: right 3: up 4: down
 
 //type of the stage
-int stageType = 0; // 2: cube   1: buildings   0/negative: debug
-int playMode = 1; // 0: single player   1: multiple co-op   2: multi versus
+int stageType = 2; // 2: cube   1: buildings   0/negative: debug
+int playMode = 2; // 0: single player   1: multiple co-op   2: multi versus
 
 void Window::initialize_objects()
 {
@@ -161,25 +161,18 @@ void Window::initialize_objects()
 		Cube* object = new Cube(vec3(-2.5, 0, -2.5), vec3(0.05, 0.05, 0.05), false, true);// vec3(0, 0, 0), vec3(0.5, 0.3, 0.5), false); //TODO change true to false and debug(delete negating normals code and also blockcollisioncheck)
 		object = new Cube(vec3(-2.5, 0, -12.5), vec3(0.05, 0.1, 0.05), false, true);
 		object = new Cube(vec3(0, 0, 0), vec3(0.05, 0.05, 0.05), false, true);
-		objects.push_back(object);
+		//objects.push_back(object);
 
-		phantom = new Phantom(4, vec3(7, 5, 0), 0.0f, 0.0f);
+		phantom = new Phantom(4, vec3(0, 5, 0), 0.0f, 0.0f, 1.0f);
 		enemies.push_back(phantom); 
 		phantom = new Phantom(4, vec3(-7, 5, 0), 0.0f, 0.0f);
-		enemies.push_back(phantom);
+		//enemies.push_back(phantom);
 		phantom = new Phantom(1, vec3(15,25, 15), -135.f, -45.f);
 		//enemies.push_back(phantom);
 		phantom = new Phantom(1, vec3(0, 15, -5), 270.f, -90.f); 
 		//enemies.push_back(phantom);
 
-		float distance;
-		vec2 bary;
-		bool doesIntersect = glm::intersectRayTriangle(vec3(-1.527,5.00003,2.64)-vec3(0.98,0,0), -vec3(-0.0786,-0.0002,0.997),vec3(-2.5, 5, -25), vec3(-2.5, 5, 25), vec3(-2.5, 0, 25), bary, distance);
-		printf("\n\n\ntest: %d %f\n\n", doesIntersect, distance);
-		doesIntersect = glm::intersectRayTriangle(vec3(-1.527, 5.00003, 2.64) - vec3(0.98,0,0), -vec3(-0.0786, -0.0002, 0.997), vec3(-2.5, 5, -25), vec3(-2.5, 0, -25), vec3(-2.5, 0, 25), bary, distance);
-		printf("\n\n\ntest: %d %f\n\n", doesIntersect, distance);
-
-		light = new Light(vec3(-5, 28, 20)); 
+		light = new Light(vec3(0, 28, 10)); 
 	}
 		break;
 	case 2:
@@ -661,6 +654,8 @@ void Window::moveEnemies() {
 					turning.clear();
 					if (playMode == 2) // if multi versus
 						playertwo->gameStatus = 1; //since 1P is killed, 2P wins
+					else 
+						playertwo->gameStatus = 2;
 				}
 			}
 			// player two
@@ -676,6 +671,8 @@ void Window::moveEnemies() {
 					playertwo->moving.clear();
 					if (playMode == 2)
 						playerone->gameStatus = 1; //since 2P is killed, 1P wins
+					else 
+						playerone->gameStatus = 2;
 				}
 			}
 		}
@@ -699,7 +696,7 @@ void moveLight() {
 		else if (playMode == 1) {
 			clock_t curTime = clock();
 			float deltaTime = curTime - lastTime;
-			if (deltaTime > 8000) {
+			if (deltaTime > 10000) {
 				light->pos = vec3((int)(rand() % 2) * 150.0f - 75.0f, light->pos.y, (int)(rand() % 2) * 150.0f - 75.0f);
 				lastTime = curTime;
 			}
@@ -912,7 +909,7 @@ void Window::moveCamera() {
 		break;
 	}
 
-	float speed = 0.2f;
+	float speed = 0.4f; //or 0.2
 
 	//check whether ran into wall, only checks x and z
 	vec3 new_cam_pos = cam_pos + speed * view_dir;

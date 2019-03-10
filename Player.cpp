@@ -79,13 +79,13 @@ void Player::drawWithGeom(GLuint shaderProgram, vec3 lightPos, bool forceDraw) {
 void Player::processRIP() {
 	clock_t currTime = clock();
 	if (reloading) {
-		if (currTime - reloadTime >= 1500) {
+		if (currTime - reloadTime >= 3000) {
 			reloading = false;
 			bullet = 2;
 		}
 	}
 	if (immune) {
-		if (currTime - lastAttacked >= 3000) {
+		if (currTime - lastAttacked >= 5000) {
 			immune = false;
 		}
 	}
